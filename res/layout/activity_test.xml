@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.xbting.lp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <EditText android:id="@+id/account_edt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        />
+    <Button android:id="@+id/submit_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"/>
+    <com.xbting.lp.widget.LockPatternPreView
+        android:layout_margin="10dp"
+        android:id="@+id/lock_preview"
+        android:background="#7788ff00"
+        app:radius="5.5dp"
+        app:cellPadding="1dp"
+        app:fillColor="#6d6d5d"
+        app:strokeColor="#00ff33"
+        android:layout_width="60dp"
+        android:layout_height="60dp"/>
+    <com.xbting.lp.widget.LockPatternView
+        android:id="@+id/lock_pattern_view"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:wrongLineColor="#003300"
+        app:lineColor="#883390"
+        app:circleGreen="@drawable/indicator_code_lock_point_area_green_holo"
+        app:circleNormal="@drawable/indicator_code_lock_point_area_default_holo"
+        app:circleRed="@drawable/indicator_code_lock_point_area_red_holo"
+        android:background="#777777"/>
+
+</LinearLayout>

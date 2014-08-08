@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">CustomLockPattern</string>
+    
+     <string name="lockscreen_access_pattern_start">"开始绘制图案"</string>
+    <string name="lockscreen_access_pattern_cleared">"图案已清除"</string>
+    <string name="lockscreen_access_pattern_cell_added">"已添加单元格"</string>
+    <string name="lockscreen_access_pattern_detected">"图案绘制完成"</string>
+
+</resources>
